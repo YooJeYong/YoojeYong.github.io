@@ -3,7 +3,7 @@ import Nav from "./nav";
 function Content() {
     return (
         <>
-            <main>
+            <main className="flex w-4/5 mx-auto py-[20px]">
                 <Nav />
                 <section className="container">
                     <ul className="box_article">

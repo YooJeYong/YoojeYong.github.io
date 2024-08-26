@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Nav() {
     return (
         <>
-            <nav className="lnb">
-                <ul>
+            <nav className="lnb px-[20px] w-[100px]">
+                <ul className="flex flex-col gap-[24px]">
                     <li>
                         <Link to="/1">메뉴 1번</Link>
                     </li>
